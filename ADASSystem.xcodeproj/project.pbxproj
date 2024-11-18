@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7551FA112CEB6D0300231D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7551F9F72CEB6D0200231D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7551F9FE2CEB6D0200231D85;
+			remoteInfo = ADASSystem;
+		};
+		7551FA1B2CEB6D0300231D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7551F9F72CEB6D0200231D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7551F9FE2CEB6D0200231D85;
+			remoteInfo = ADASSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7551F9FF2CEB6D0200231D85 /* ADASSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADASSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7551FA102CEB6D0300231D85 /* ADASSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADASSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7551FA1A2CEB6D0300231D85 /* ADASSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADASSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7551FA012CEB6D0200231D85 /* ADASSystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ADASSystem;
+			sourceTree = "<group>";
+		};
+		7551FA132CEB6D0300231D85 /* ADASSystemTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ADASSystemTests;
+			sourceTree = "<group>";
+		};
+		7551FA1D2CEB6D0300231D85 /* ADASSystemUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ADASSystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7551F9FC2CEB6D0200231D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551FA0D2CEB6D0300231D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551FA172CEB6D0300231D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7551F9F62CEB6D0200231D85 = {
+			isa = PBXGroup;
+			children = (
+				7551FA012CEB6D0200231D85 /* ADASSystem */,
+				7551FA132CEB6D0300231D85 /* ADASSystemTests */,
+				7551FA1D2CEB6D0300231D85 /* ADASSystemUITests */,
+				7551FA002CEB6D0200231D85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7551FA002CEB6D0200231D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7551F9FF2CEB6D0200231D85 /* ADASSystem.app */,
+				7551FA102CEB6D0300231D85 /* ADASSystemTests.xctest */,
+				7551FA1A2CEB6D0300231D85 /* ADASSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7551F9FE2CEB6D0200231D85 /* ADASSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7551FA242CEB6D0300231D85 /* Build configuration list for PBXNativeTarget "ADASSystem" */;
+			buildPhases = (
+				7551F9FB2CEB6D0200231D85 /* Sources */,
+				7551F9FC2CEB6D0200231D85 /* Frameworks */,
+				7551F9FD2CEB6D0200231D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7551FA012CEB6D0200231D85 /* ADASSystem */,
+			);
+			name = ADASSystem;
+			packageProductDependencies = (
+			);
+			productName = ADASSystem;
+			productReference = 7551F9FF2CEB6D0200231D85 /* ADASSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7551FA0F2CEB6D0300231D85 /* ADASSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7551FA272CEB6D0300231D85 /* Build configuration list for PBXNativeTarget "ADASSystemTests" */;
+			buildPhases = (
+				7551FA0C2CEB6D0300231D85 /* Sources */,
+				7551FA0D2CEB6D0300231D85 /* Frameworks */,
+				7551FA0E2CEB6D0300231D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7551FA122CEB6D0300231D85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7551FA132CEB6D0300231D85 /* ADASSystemTests */,
+			);
+			name = ADASSystemTests;
+			packageProductDependencies = (
+			);
+			productName = ADASSystemTests;
+			productReference = 7551FA102CEB6D0300231D85 /* ADASSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7551FA192CEB6D0300231D85 /* ADASSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7551FA2A2CEB6D0300231D85 /* Build configuration list for PBXNativeTarget "ADASSystemUITests" */;
+			buildPhases = (
+				7551FA162CEB6D0300231D85 /* Sources */,
+				7551FA172CEB6D0300231D85 /* Frameworks */,
+				7551FA182CEB6D0300231D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7551FA1C2CEB6D0300231D85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7551FA1D2CEB6D0300231D85 /* ADASSystemUITests */,
+			);
+			name = ADASSystemUITests;
+			packageProductDependencies = (
+			);
+			productName = ADASSystemUITests;
+			productReference = 7551FA1A2CEB6D0300231D85 /* ADASSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7551F9F72CEB6D0200231D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					7551F9FE2CEB6D0200231D85 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					7551FA0F2CEB6D0300231D85 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7551F9FE2CEB6D0200231D85;
+					};
+					7551FA192CEB6D0300231D85 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7551F9FE2CEB6D0200231D85;
+					};
+				};
+			};
+			buildConfigurationList = 7551F9FA2CEB6D0200231D85 /* Build configuration list for PBXProject "ADASSystem" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7551F9F62CEB6D0200231D85;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7551FA002CEB6D0200231D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7551F9FE2CEB6D0200231D85 /* ADASSystem */,
+				7551FA0F2CEB6D0300231D85 /* ADASSystemTests */,
+				7551FA192CEB6D0300231D85 /* ADASSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7551F9FD2CEB6D0200231D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551FA0E2CEB6D0300231D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551FA182CEB6D0300231D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7551F9FB2CEB6D0200231D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551FA0C2CEB6D0300231D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551FA162CEB6D0300231D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7551FA122CEB6D0300231D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7551F9FE2CEB6D0200231D85 /* ADASSystem */;
+			targetProxy = 7551FA112CEB6D0300231D85 /* PBXContainerItemProxy */;
+		};
+		7551FA1C2CEB6D0300231D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7551F9FE2CEB6D0200231D85 /* ADASSystem */;
+			targetProxy = 7551FA1B2CEB6D0300231D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7551FA222CEB6D0300231D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7551FA232CEB6D0300231D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7551FA252CEB6D0300231D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ADASSystem/ADASSystem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADASSystem/Preview Content\"";
+				DEVELOPMENT_TEAM = QA6QQR9MRG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsu.ADASSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7551FA262CEB6D0300231D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ADASSystem/ADASSystem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADASSystem/Preview Content\"";
+				DEVELOPMENT_TEAM = QA6QQR9MRG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsu.ADASSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7551FA282CEB6D0300231D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA6QQR9MRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsu.ADASSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADASSystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADASSystem";
+			};
+			name = Debug;
+		};
+		7551FA292CEB6D0300231D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA6QQR9MRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsu.ADASSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADASSystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADASSystem";
+			};
+			name = Release;
+		};
+		7551FA2B2CEB6D0300231D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA6QQR9MRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsu.ADASSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ADASSystem;
+			};
+			name = Debug;
+		};
+		7551FA2C2CEB6D0300231D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA6QQR9MRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsu.ADASSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ADASSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7551F9FA2CEB6D0200231D85 /* Build configuration list for PBXProject "ADASSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7551FA222CEB6D0300231D85 /* Debug */,
+				7551FA232CEB6D0300231D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7551FA242CEB6D0300231D85 /* Build configuration list for PBXNativeTarget "ADASSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7551FA252CEB6D0300231D85 /* Debug */,
+				7551FA262CEB6D0300231D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7551FA272CEB6D0300231D85 /* Build configuration list for PBXNativeTarget "ADASSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7551FA282CEB6D0300231D85 /* Debug */,
+				7551FA292CEB6D0300231D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7551FA2A2CEB6D0300231D85 /* Build configuration list for PBXNativeTarget "ADASSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7551FA2B2CEB6D0300231D85 /* Debug */,
+				7551FA2C2CEB6D0300231D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7551F9F72CEB6D0200231D85 /* Project object */;
+}
